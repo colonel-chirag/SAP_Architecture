@@ -57,3 +57,17 @@ Documents: This function area is used for inserting, searching, creating links f
 Business Content: It provides preconfigured data models based on metadata. We can say that business content is a collection of SAP-defined objects available in the delivery version.
 Translation: You can perform translation of texts for SAP BW objects.
 Metadata Repository: In the metadata repository of HTML, SAP BW metadata objects and related links to other objects are centrally managed together with the help of an integrated metadata repository browser.
+
+11. What is SAP R/3?
+SAP R/3 is a 3rd generation set of extremely integrated software modules. It is one of the major products in SAP, where R represents RealTime and the number 3 represents three-tier application architecture.
+It is an organization-wide information system that is mainly designed for coordinating all the resources, information, and activities required to complete common business processes such as human resource management, billing, order fulfilment, and production planning.
+It can be used by any organization however different it is in its operations, or anywhere in the world.
+SAP R/3 has three main layers. They are:
+Presentation Layer: It consists of the software components that are made of SAPgui(graphical user interface). This layer is responsible for sending the user’s input to the application server, and for receiving the data for display from it.
+Application Layer: It consists of single or multiple application servers and a message server. The message server transmits the request from one application server to another application server within the system. Also, it holds application server groups related information and the current load balancing within them. It will make use of this information for assigning a suitable server when a user logs onto the system.
+Database Layer: It contains a central database system that has all of the data in the R/3 System. SAP has developed its own database named HANA, but it is compatible with many databases like Oracle.
+
+
+
+
+![SAP_R3_has_three_main_layers](https://user-images.githubusercontent.com/59536110/175364790-89f44c1f-5c2d-4cad-b594-b1c1495f6756.png)
