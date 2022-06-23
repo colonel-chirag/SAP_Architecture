@@ -57,6 +57,7 @@ Documents: This function area is used for inserting, searching, creating links f
 Business Content: It provides preconfigured data models based on metadata. We can say that business content is a collection of SAP-defined objects available in the delivery version.
 Translation: You can perform translation of texts for SAP BW objects.
 Metadata Repository: In the metadata repository of HTML, SAP BW metadata objects and related links to other objects are centrally managed together with the help of an integrated metadata repository browser.
+![Screenshot_2022-06-23_23-26-39](https://user-images.githubusercontent.com/59536110/175368257-09a00d03-5a6e-4587-bf01-ce54e5f520c6.png) 
 
 11. What is SAP R/3?
 SAP R/3 is a 3rd generation set of extremely integrated software modules. It is one of the major products in SAP, where R represents RealTime and the number 3 represents three-tier application architecture.
