@@ -37,3 +37,23 @@ A top-down data analysis approach is used where insight is obtained by analyzing
 
 7. What are pooled tables in SAP?
 A pooled table is a special type of table that is present in the SAP ABAP(Advanced Business Application Programming) dictionary that is used to store control data. The pooled table is an SAP proprietary creation. It has a many-to-one relationship with tables within the SAP database. This implies that, for a provided pooled table in the database, the SAP data dictionary can have multiple smaller tables. SAP will make use of pooled tables to integrate and hold a huge number of small tables. This will help in reducing the space and resources required at the database level. SAP will mainly use pooled tables for system data maintenance.
+
+8. What is BEx in SAP?
+BEx(Business Explorer) is a tool provided by an SAP SE software company that supports for entry of data in BW(Business Warehouse) Integrated Planning and the creation of planning applications.
+BEx permits the end-user to locate reports, execute the query, analyze the information, and view the reports. If an employee has authorization access, he can evaluate current or historical data at different levels of detail and from various perspectives; both on the Web, in Microsoft Excel, and the portal.
+BEx has the components like BEx Map, BEx analyzer, and BEx Web. The queries present in the workbook can be saved to their corresponding roles within the BEx browser.
+BEx Information Broadcasting will help to distribute the created objects with Business Explorer via e-mail, either as document files with historical data that are previously calculated or as a link with live data. You are allowed to publish this content to the portal (in collaboration rooms or Knowledge Management folders).
+
+9. What is AWB? What are the functions of AWB?
+AWB(Administrator Workbench) is a tool useful in controlling, maintaining, and monitoring each and every process that is in link with staging and processing of data in SAP business information warehousing. Also, it can be used to create, modify and customize all types of metadata objects of Business Warehouse.
+
+Administration Workbench(AWB) functions in SAP BW are:
+
+Modeling: It is used for creating and maintaining metadata objects related to the staging and processing of data within SAP Business Warehouse(SAP BW). These objects will be displayed in a tree structure format, in which the objects are ordered based on hierarchical criteria. You can make use of the context menu for accessing the relevant maintenance dialogs for every object in the object tree. You need to choose transaction RSA1 for accessing the Modeling functions area.
+Monitoring: It is helpful in monitoring and controlling the process of data loading and additional data process in SAP BW.
+Reporting Agent: With the help of this reporting agent tool you will be able to schedule and execute the reporting functions in the background.
+Transport Connection: This function area is useful for transferring the newly created or modified objects that are present in BW systems. For example, transporting objects from the development server to the testing server and then to production systems.
+Documents: This function area is used for inserting, searching, creating links for one or more documents according to the needed format, languages, and versions for SAP BW objects.
+Business Content: It provides preconfigured data models based on metadata. We can say that business content is a collection of SAP-defined objects available in the delivery version.
+Translation: You can perform translation of texts for SAP BW objects.
+Metadata Repository: In the metadata repository of HTML, SAP BW metadata objects and related links to other objects are centrally managed together with the help of an integrated metadata repository browser.
