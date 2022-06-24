@@ -114,3 +114,23 @@ Call Transaction Method: It does asynchronous processing of data and transfers o
 ![bdc](https://user-images.githubusercontent.com/59536110/175597014-dc313313-60da-42b9-ab13-ba6fb1936395.png)
 
 ![Screenshot_2022-06-24_22-09-56](https://user-images.githubusercontent.com/59536110/175599576-f8ebf5be-e9cd-4dbb-9fbd-7559a9870f05.png)
+
+19. Explain the significance of ODS(Operational Data Store) in BIW(Business Warehouse Information).
+An ODS(Operational Data Store) Object supports consolidated and debugged transaction data storage on a document level. It defines a combined dataset from single or multiple InfoSources. Analysis of this dataset can be done with an InfoSet Query or BEx Query. We can update the ODS Object data with a delta update into InfoCubes and other ODS Objects that belongs to the same system or across other systems. The data in ODS Objects will be stored in transparent, flat database tables.
+
+20. Explain about SAP services.
+Some of the SAP services are:
+
+SAP Application Management Services: It includes development of application, implementation, integration, testing, monitoring, help desk services, maintenance and support(technical and functional), backup and recovery.
+SAP Platform Modernization: The modernization approach will convert SAP into a dynamic, agile, and capable digital core ready to fit into frequently changing market conditions and requirements of the customers.
+SAP S/4 HANA Migration and Transition Services: Integrated business planning and strategies of digital transition for S/4 HANA migrations will be provided. Our aim is to migrate the useful features while implementing technology that supports the current and future requirements of a business.
+SAP S/4 HANA Implementation Services: It allows businesses to fulfill the digital economy-related demands.
+SAP Technology Platform & Infrastructure Services: This service will make sure that your ERP platforms are robust and secure, whether it is an existing SAP platform or part of S/4 HANA or cloud migration/implementation.
+SAP Interview Questions for Experienced
+21. What is code pushdown in SAP?
+Code pushdown means transferring data-intense calculations to the database layer. ALL calculations will not be pushed into the database, only required calculations will be considered. For example, if you wish to do the calculation for finding the amount of all positions of invoices, it is not mandatory to select all positions of those invoices and perform the calculation of sum using a loop. By using an aggregation function(SUM()) on the database you can easily do this.
+
+22. What is SAP S/4HANA?
+SAP S/4HANA(SAP Business Suite 4 SAP HANA) is an ERP software package based on the SAP HANA(in-memory database) and it permits companies for doing ERP transactions and analyzing the business data in real-time. S/4HANA can be easily used and administered during complex problem solving and handling a huge quantity of data than its predecessors. It is provided in on-premises, cloud and hybrid deployment models along with SAP is forcing its customers for opting the cloud. SAP S/4HANA is used by organizations mainly for integrating and managing business functions like sales, finance, procurement, human resources, service, and manufacturing in real-time.
+
+
