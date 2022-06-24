@@ -173,4 +173,4 @@ Login to CMC with the right of Administrator authorization and go for the OLAP C
 Then select the option new connection.
 Enter the details of the BI server as given in the below screenshot.
 
-
+![how-to-create-an-olap-connection-in-cmc](https://user-images.githubusercontent.com/59536110/175618742-99e3d9b2-4e37-4f43-b660-8133f1744b13.png)
