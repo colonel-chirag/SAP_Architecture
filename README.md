@@ -72,3 +72,44 @@ Database Layer: It contains a central database system that has all of the data i
 
 
 ![SAP_R3_has_three_main_layers](https://user-images.githubusercontent.com/59536110/175364790-89f44c1f-5c2d-4cad-b594-b1c1495f6756.png)
+
+12. What is SAP PI/PO(Process Integration/Process Orchestration)?
+SAP PI/PO is a tool that permits you for integrating the solutions from SAP systems to other SAP or non-SAP systems. Using this, data between various systems can be easily synchronized. For example, consider that the SAP ERP system is used by you, and you want to integrate it with the CRM system. It can be done using PI, which allows the user to easily perform the integrations, with the help of a standard tool that permits you to maintain various connections in a single place.
+Using SAP PI/PO, synchronizing data to a warehouse system is also possible. For example, consider the case where you wish to send all the orders related information like how they are used, which of them are being produced, and when they need to be shipped.
+Work becomes easier and more trouble-free with the help of SAP PI/PO. Because developers and organizations are having a single tool that can be used for various integrations varieties, instead of using multiple divergent tools for smaller tasks.
+13. Define LUW(Logical Unit of Work).
+An LUW(Logical Unit of Work) is a series of database operations that should be either completely executed(followed by commit) or not at all(followed by rollback).
+It helps to guarantee the integrity of the database. The database is said to be in a correct state when an LUW has been successfully concluded. However, if any error occurs within an LUW, all the modifications made to the database from the beginning of the LUW will be canceled and the database will be returned to the previous state as before the LUW started. For example, in financial accounting, while transferring some amount of money, you must deduct that amount from account A and it must be added to account B. Before and after the transfer process, the data must be consistent, but in between these two steps, data can be inconsistent. If the amount transfer by LUW becomes successful, then the amount will be deducted from account A and added into account B. If any error occurs in between database must be returned to its previous state before LUW started.
+An LUW will begin:
+Each time when you start a transaction.
+When the changes made to the database using the previous LUW has been confirmed(database commit).
+When the changes made to the database using the previous LUW has been canceled(database rollback).
+An LUW will end:
+When the changes made to the database has been confirmed(database commit).
+When the changes made to the database has been canceled(database rollback).
+14. What are variables in SAP?
+Variables are query parameters that are set in the definition of parameter query and values will be assigned only after the query has been entered into the workbooks.
+There are various types of variables that can be used in different applications. Some commonly used variables are text, formulas, replacement path, user entry/default type, hierarchies, hierarchy nodes, characteristics variable, processing types, etc.
+15. What are the two types of services used for dealing with communication in SAP?
+The two types of services used to deal with communication:
+
+Gateway Service: This service permits communication between SAP R/3 and external applications using the CPI-C protocol.
+Message Service: This service is used by the application servers for exchanging short internal messages.
+16. Explain the standard stages of the SAP Payment Run?
+The standard stages of SAP on SAP Payment Run execution will include:
+
+Entering of parameters: It will include entering company codes, methods of payments, vendor accounts, etc.
+Proposal Scheduling: The system offers a list of invoices to be paid
+Payment booking: It includes booking of the actual payment into the ledger
+Printing of Payment forms: It includes payment forms printing.
+17. What is BDC(Batch Data Communication)? How many methods of BDC are present?
+BDC(Batch Data Communication) is used for data transfer from the Non-SAP system to the SAP R/3 system. A huge amount of data can be added into the database of the sap tables instead of manual entry of the data. Use SHDB(transaction code used for transaction recording in SAP) transaction for recording and the cursor movement. This cursor movement is noticeable by the SAP software and according to our excel or flat file, the data will be sent or stored in the proper position.
+
+There are 3 methods you can use for transferring the data. The methods of BDC are:
+
+Batch Input Session Method: This method is mainly used in ABAP programming when no other method exists. The online transaction process is simulated and the data transfer will be done in the way it is done online. A batch input session will be created using SHDB that has all the data and screens and then processed. If you have made any changes to the screen then you need to add these screens to the program, otherwise, the BDC will be failed.
+Direct Input Method: In this method, the input file data will be transferred directly to the SAP database. The involvement of screens is not required. This method will make use of function modules to complete the task.
+Call Transaction Method: It does asynchronous processing of data and transfers only a small amount of data. Here, data will be automatically updated and it is having faster processing. If you are using this method, errors must be handled explicitly.
+
+
+
