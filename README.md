@@ -133,4 +133,6 @@ Code pushdown means transferring data-intense calculations to the database layer
 22. What is SAP S/4HANA?
 SAP S/4HANA(SAP Business Suite 4 SAP HANA) is an ERP software package based on the SAP HANA(in-memory database) and it permits companies for doing ERP transactions and analyzing the business data in real-time. S/4HANA can be easily used and administered during complex problem solving and handling a huge quantity of data than its predecessors. It is provided in on-premises, cloud and hybrid deployment models along with SAP is forcing its customers for opting the cloud. SAP S/4HANA is used by organizations mainly for integrating and managing business functions like sales, finance, procurement, human resources, service, and manufacturing in real-time.
 
+![Screenshot_2022-06-24_22-14-06](https://user-images.githubusercontent.com/59536110/175603769-403ad860-b205-4dd8-8d86-7c003d0a859f.png)
+
 
