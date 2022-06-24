@@ -134,5 +134,43 @@ Code pushdown means transferring data-intense calculations to the database layer
 SAP S/4HANA(SAP Business Suite 4 SAP HANA) is an ERP software package based on the SAP HANA(in-memory database) and it permits companies for doing ERP transactions and analyzing the business data in real-time. S/4HANA can be easily used and administered during complex problem solving and handling a huge quantity of data than its predecessors. It is provided in on-premises, cloud and hybrid deployment models along with SAP is forcing its customers for opting the cloud. SAP S/4HANA is used by organizations mainly for integrating and managing business functions like sales, finance, procurement, human resources, service, and manufacturing in real-time.
 
 ![Screenshot_2022-06-24_22-14-06](https://user-images.githubusercontent.com/59536110/175603769-403ad860-b205-4dd8-8d86-7c003d0a859f.png)
+24. List the different SAP modules.
+The different Modules available in SAP are:
+
+FI (Financial Accounting)
+CO (Controlling)
+EC (Enterprise Controlling)
+TR(Treasury)
+MM (Materials Management)
+PP (Production Planning)
+IM (Investment Management)
+QM (Quality Management)
+EAM (Enterprise Asset Management)
+HR (Human Resource)
+SD (Sales and Distribution)
+BW (Business Warehousing)
+Apart from this, there are various other industry-specific solutions provided by the SAP.
+
+25. Explain about SAP portal.
+SAP Enterprise Portal(SAP EP) provides users with web-based, role-specific, and also provides secure access to all the services, information, and applications in SAP environments. Employees require only a desktop and a Web Browser, and can start with work immediately after authentication in the portal has been completed. It contains the NetWeaver components Portal, Collaboration, and Knowledge Management. Pre-defined content is also provided by the SAP. Currently, the portfolio is having more than 100 business packages, which can be shipped in many languages.
+The major advantage of using this portal is that you are allowed to use multiple JSP(Java Server Pages) pages at a time. Here you can have separate views and each view can be a JSP page or a web page that supports interaction with the J2EE server so that multiple works can be handled on the same page.
+It can also be used with platform-independent applications. You can execute and implement it for maintaining many applications like Microsoft outlook etc.
+26. Explain about SAP launchpad.
+SAP launchpad simplifies access to business applications with a personalized as well as role-based launchpad site. This service will allow an organization for establishing a central point of access to SAP(Example: SAP S/4HANA), custom-built, third-party applications, etc., both on the on-premise and the cloud.
+
+The SAP Launchpad service provides the following features:
+
+Application Integration: It provides a central point of access for tasks and applications, with limitless integration to different UI technologies and third-party applications.
+Intuitive and Engaging User Experience: It gives a personalized and role-based launchpad along with a content structure(flexible)that follows the SAP Fiori 3 design guidelines.
+Integrations: It has an integration with central SAP BTP(Business Technology Platform) services like inbox and cloud identity services.
+Extensibility: It is considered an extensible framework for customizations with the help of shell plugins and custom branding.
+27. How can we create an OLAP(Online Analytical Processing) connection in CMC(Central Management Console)?
+From SAP BO 4.0(SAP Business Objects 4.0) onwards it is allowed to connect BEx query through BICS(Business Intelligence Consumer Services) connection which is also called OLAP connection. With the help of CMC(Central Management Console) or IDT(Information Design Tool), it is possible to create and save the OLAP connection. This OLAP connection can be created for connection with the Multi-provider, BI(Business Intelligence) server, InfoCube, and BEx query. If the connection is specific for a particular Cube, Query, or Multi-provider then the connection will be created in query or cube base. Otherwise, the connection will be created on the BI server using which connection to any BEx query is possible. The advantage of Connection creation on the BI server is only a single OLAP connection is required for all BO reports.
+
+Steps for creating OLAP connection to connect with BI server:
+
+Login to CMC with the right of Administrator authorization and go for the OLAP Connection option.
+Then select the option new connection.
+Enter the details of the BI server as given in the below screenshot.
 
 
