@@ -174,3 +174,61 @@ Then select the option new connection.
 Enter the details of the BI server as given in the below screenshot.
 
 ![how-to-create-an-olap-connection-in-cmc](https://user-images.githubusercontent.com/59536110/175618742-99e3d9b2-4e37-4f43-b660-8133f1744b13.png)
+
+Click on Connect button for checking connectivity and give the credential of the BI server.
+Don’t go for a selection of any cube or query as we are making the connection to the BI server, click on cancel.
+Select ‘Predefined’ for Authentication Type and maintain the user name and password, then click on save.
+Now, OLAP Connection to the BI server has been successfully created using CMC.
+
+28. What is the posting key?
+The posting key is a two-digit numeric key used for determining the type of transaction which is entered in the line item. It determines account types(A–>Assets, D–>Customers, K–>Vendors, M–>Materials, S–>General Ledger Account), the layout of entry screens, and types of posting(Debit or Credit). Special posting keys are useful in posting special General ledger transactions.
+
+Posting keys scenarios are:
+
+The standard SAP system is responsible to deliver the standard posting key, and you will be enabled for using the standard posting and change or modify it as per the business organization requirement.
+Posting keys provided in the SAP will control the entries in a line item of document entries.
+It decides about the account type to post, that is, whether the amount is supposed to be posted on the credit side or debit side.
+29. What is the Information model?
+Information model consists of Analytic, Attribute, and Calculation views and it is mainly used for hiding the technicalities of data selection so that it becomes easier for the business users to model their data who are having only functional knowledge about a database and doesn’t have any technical knowledge. So we can say that the information model hides the complexity and overcomes a few setbacks with the queries.
+
+Information models are:
+
+Used for converting the linear structure into a multi-dimension structure without having technical knowledge.
+Process of source data(in tables) conversion into the format that is business understandable.
+Make use of Hardware advancements available in HANA.
+It is possible to reduce the data transfer between the database and application layer by defining information models inside HANA DB.
+Having Complex logic and also transformation executed in DB layer.
+30. What do you mean by transactional RFC?
+Transactional RFC(Transactional Remote Function Call) allows giving out of the sent request for a mistake in the system for a once. This is done after the allocation of an ID for the transaction procedure which is also called TID(Transaction ID). The remote system access is not necessary during the present moment in the Transaction RFC.
+
+31. What are the advantages of SQL script?
+SQL scripts are easier to use because they can be saved and loaded whenever it is needed.
+It reduces the number of errors as there are no manually entered commands that are prone to human errors.
+We can schedule the SQL script to run at a convenient time, or when a human is not present.
+For holding the interim result, a local variable can be declared in a SQL script.
+SQL Script Procedure can return more than one result with the help of the “OUTPUT Parameter”, while the Normal SQL Procedure can return only one result.
+You are permitted to define local or global tables types that can be used as parameters in a SQL script.
+32. What are the common transport errors?
+The common transport errors will include:
+
+Return code 4: It is imported with warnings, program generation, row or column missing.
+Return code 8: It is imported with a program generation-related error, syntax-related error, dictionary activation-related error, etc.
+Return code 12: It indicates import canceled because of object missing, inactive object, etc.
+Return code 18: It indicates import canceled because of user expired or system down during import, and limited roles or authorization.
+33. What are .sca files?
+.sca(SAP component Archive) files are useful in the deployment of the components, Java patches, as well as other java developments in the form of .jar, .sda, .war, and .sca.
+
+34. What are different SAP products?
+SAP has a huge number of various products under different categories. Few SAP products are:
+
+Ariba: It is a cloud-based innovative solution and it permits for connection establishment between buyers and suppliers so that they can do business on a single platform. It has improved the organization’s overall vendor management system by providing cheaper ways of procurement and thus making business simple. Ariba will digitally transform your procurement, supply chain, and contract management process.
+SuccessFactors: It is a cloud-based HR solution that helps organizations easily manage different HR operations. SuccessFactors is based on the Software as a Service(SaaS) model. It is mainly designed for fulfilling the needs of enterprise-class organizations.
+Fieldglass: It is cloud-based and has an open Vendor Management System(VMS) that helps organizations to manage, find, pay, engage, etc. SAP Fieldglass has limitless integration with SAP on-premise solutions through SAP Cloud Platform Integration, SAP PI, or web services.
+Concur: SAP Concur solutions will help you to connect all your travel, expense, and vendor invoice spend in a single system, by providing a single way to obtain higher transaction visibility, manage to spend from end-to-end, compliance improvement, and process simplification for everyone.
+Fiori: It is a new user experience(UX) for SAP software and applications. It has a set of applications that are used in regular business functions such as financial applications, workflow approvals, information lookups, calculation applications, and self-service applications. They provide simple and also easy-to-use access across tablets, smartphones, and desktops.
+
+Conclusion
+To get any technical position, theory and basic concepts are necessary for freshers who are applying for the SAP job roles, but for an experienced candidate both practical and applied concepts are mandatory. For an experienced candidate, a lot of SAP questions will be related to your previous project and roles.
+
+This article includes a list of frequently asked interview questions that fit all the modules of SAP. A candidate who wants to get a job as an SAP executive or others should go through these questions once again before heading towards the SAP Interview session.
+
