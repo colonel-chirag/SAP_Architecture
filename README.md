@@ -111,5 +111,6 @@ Batch Input Session Method: This method is mainly used in ABAP programming when 
 Direct Input Method: In this method, the input file data will be transferred directly to the SAP database. The involvement of screens is not required. This method will make use of function modules to complete the task.
 Call Transaction Method: It does asynchronous processing of data and transfers only a small amount of data. Here, data will be automatically updated and it is having faster processing. If you are using this method, errors must be handled explicitly.
 
+![bdc](https://user-images.githubusercontent.com/59536110/175597014-dc313313-60da-42b9-ab13-ba6fb1936395.png)
 
 
